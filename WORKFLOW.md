@@ -20,7 +20,23 @@ Build Master and to leave the door open, never to turn their post into an ad.
 ## The journey
 
 ### Phase 0 · Setup (once)
-The Build Master makes a folder on their Desktop and drops the night's photos in:
+Handed over as **one block up front**, not drip-fed. The agent first says which route it's on.
+
+**Paper route (default).** Four things, in order:
+1. **Open the Paper desktop app** and leave it running. The MCP bridge only works while it's open.
+   "Nothing to install" means no render pipeline, not no app to open. This trips people up.
+2. **Grant Paper Full Disk Access** (System Settings > Privacy & Security > Full Disk Access), then
+   relaunch it. Without this a local photo import hangs *silently*: no error, no node, no clue. It
+   reads as a Paper bug and it isn't. Do this before the first import, not after it hangs.
+3. **Open a blank Paper file** for this event.
+4. **The agent confirms the target before building.** With several files open the MCP binds to the
+   most-recently-used one, which may be unrelated work. The agent announces the file and page, and
+   defaults to creating a new page named `Build & Brew · <city>` rather than trusting the active canvas.
+
+**No-Paper route.** No Paper account or MCP, or the free tier's weekly cap is hit. Same archetypes
+rendered locally. See `no-paper-path/README.md`.
+
+Then, either route, the Build Master makes a folder on their Desktop with the night's photos:
 ```
 ~/Desktop/build-brew-<city>/        e.g. ~/Desktop/build-brew-austin/
 ```
@@ -29,7 +45,9 @@ picks are a lighting decision (warm/dim → cinematic A/G; bright/celebratory �
 
 ### Phase 1 · Intake → draft  · **Gate 1**
 A short conversation *before any image is made*. The agent asks:
-1. Single post or carousel? (Unsure → tell me about the night, I'll recommend.)
+1. Single post or carousel? **Single post is the default**, and the agent says so. It's what Build
+   Masters actually use and one share is a win. Carousel only on request, or when the night has
+   several distinct beats worth swiping through.
 2. **What happened?** The arc — doors, pairing up, building, demos, the one human moment.
    *These words become the copy.*
 3. **What did you build?** The actual projects — the app, site, agent, or thing the group or a
@@ -41,7 +59,15 @@ A short conversation *before any image is made*. The agent asks:
    plum, canary, sand, or **none**? *Asked every run; no default.*
 
 The agent drafts the archetype pick(s) + the line(s) in the Build Master's voice and **shows
-them**. → **Gate 1: yes on the copy + plan before anything renders.**
+them**.
+
+**The title carries the post.** Ten words maximum, naming what got built or the result. Someone
+scrolling past should know what happened *without reading the caption*. "Seven of us built an AI
+assistant for our inbox" does the job; "an amazing night of building" does not, and neither does a
+sentence so long it's really a caption. The agent drafts the title first and rewrites it until it
+passes that test. No em dashes, and no ad-copy phrases (see `brand/voice.md`).
+
+→ **Gate 1: yes on the copy + plan before anything renders.**
 
 ### Phase 2 · Preview → iterate  · **Gate 2**
 The agent builds the chosen archetypes as boards on the Paper canvas ("Build & Brew Kit" file),
@@ -58,10 +84,13 @@ fills the next room. See `magic_trick.md`.
 
 → **Gate 2: yes on the visuals before export.**
 
-### Phase 3 · Export from Paper (only after Gate 2, and after the brand-QA read-back passes)
+### Phase 3 · Export (only after Gate 2, and after the brand-QA read-back passes)
 - Instagram single → one image, 1080×1350.
 - Instagram carousel → the boards as images, in swipe order (01, 02, …).
 - LinkedIn carousel → one PDF, a board per page (a swipeable document).
+
+Paper route exports from Paper; no-Paper route uses `export.sh`. No carousel dot row on any slide:
+Instagram draws its own indicator, so ours only doubled it up.
 
 ### Phase 4 · Post (and close the loop)
 The agent surfaces the caption + tags and the tag-the-faces checklist. Tagging the people in the
@@ -75,10 +104,15 @@ photos is the single biggest reach lever. Then it closes the loop, in the Build 
 
 ---
 
-## Surface — Paper only
-Paper is the one surface. The agent builds and exports every post on the Paper canvas; there is no
-local renderer. The archetype HTML in `templates/archetypes/` is the design source the boards are
-built from, not something anyone runs.
+## Surface — two routes
+**Paper (default).** The agent builds and exports every post on the Paper canvas. The archetype HTML
+in `templates/archetypes/` is the design source the boards are built from, not something anyone runs.
+
+**No Paper.** The same archetype HTML is rendered directly with `templates/archetypes/render.sh` and
+packaged with `export.sh`. One setup command (`npx playwright install chromium`). The gates, copy
+rules, and brand QA are identical; only the renderer changes. The one compromise is typography: the
+house fonts are licensed and not bundled, so type falls back to system faces. See
+`no-paper-path/README.md`.
 
 > **Ground + accent** are token controls on the board: ground = light (paper + ink) or dark
 > (leather + cream) on the block/text archetypes (D, numbers, build-master, F); accent = one of

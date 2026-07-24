@@ -1,7 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <!--
   By the numbers  (carousel proof slide, or a standalone stat post)
-  Slots: {{META}} {{N1}} {{L1}} {{N2}} {{L2}} {{N3}} {{L3}} {{DOTS}}   (DOTS optional, e.g. DOTS=5/6)
+  Slots: {{META}} {{N1}} {{L1}} {{N2}} {{L2}} {{N3}} {{L3}}
+  No dot row: Instagram draws its own carousel indicator, so ours only doubled it up.
   1080x1350. Big FK Grotesk Black numbers on leather.
 -->
 <style>
@@ -21,9 +22,6 @@
   .meta{position:absolute;top:60px;left:80px;font-weight:500;font-size:22px;color:var(--fg)}
   .mark{position:absolute;top:56px;right:64px;width:44px;height:44px}
   .mark svg path{fill:var(--fg)}
-  .dots{position:absolute;bottom:46px;left:0;width:1080px;display:flex;justify-content:center;gap:12px}
-  .dots i{width:8px;height:8px;border-radius:99px;background:color-mix(in srgb, var(--fg) 34%, transparent)}
-  .dots i.on{background:var(--fg)}
 </style></head>
 <body><div class="frame">
   <div class="meta">{{META}}</div>
@@ -32,5 +30,4 @@
   <div class="stat"><div class="n">{{N1}}</div><div class="l">{{L1}}</div></div>
   <div class="stat"><div class="n">{{N2}}</div><div class="l">{{L2}}</div></div>
   <div class="stat"><div class="n">{{N3}}</div><div class="l">{{L3}}</div></div>
-  <div class="dots">{{DOTS}}</div>
 </div></body></html>
