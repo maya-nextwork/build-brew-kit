@@ -1,5 +1,5 @@
 {
-  "_note": "Canonical palette for the Build & Brew kit. These hexes match the templates in templates/archetypes/ and AGENT.md exactly — if you change one, change all three. Derived from the NextWork kernel; see scripts/sync-from-kernel.md.",
+  "_note": "Canonical palette for the Build & Brew kit. These hexes match the templates in templates/archetypes/ and AGENT.md exactly. If you change one, change all three. Derived from the NextWork kernel; see scripts/sync-from-kernel.md.",
   "core": {
     "paper": "#f8f5f1",
     "ink": "#1b1918",
@@ -23,8 +23,8 @@
   },
   "rules": [
     "Ground is paper #f8f5f1 (never pure white) or leather #1b1918 (never pure black).",
-    "One accent per post. There is NO standing default — ask every time; 'none' (fully tonal) is always a good answer. A small highlight, never a big saturated block.",
-    "On a warm graded event photo, prefer a warm accent: pumpkin, canary, or sand. Cornflower and plum are cold and clash with the warm grade — keep them for cool or screenshot posts, not warm event photos. Emerald is the signature green: fine as a small highlight, never a block.",
+    "One accent per post. There is NO standing default. Ask every time; 'none' (fully tonal) is always a good answer. A small highlight, never a big saturated block.",
+    "On a warm graded event photo, prefer a warm accent: pumpkin, canary, or sand. Cornflower and plum are cold and clash with the warm grade, so keep them for cool or screenshot posts, not warm event photos. Emerald is the signature green: fine as a small highlight, never a block.",
     "Plum stays out of large colour blocks.",
     "Canary #ffdd2d is the yellow highlight accent."
   ]

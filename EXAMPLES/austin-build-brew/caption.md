@@ -1,9 +1,9 @@
-# Austin Build & Brew — captions + tags
+# Austin Build & Brew: captions + tags
 
 Written in the Build Master's voice. Tag the people in the photos first; that's the reach lever.
 Replace `@____` with real handles and confirm the real NextWork link before posting.
 
-## Instagram — single post (`single.png`)
+## Instagram: single post (`single.png`)
 > 45 of us packed a room in Austin last night and just built. No talks, no watching.
 > Six teams paired off over coffee and shipped a real, working project by midnight.
 > Watching someone demo their first project is the whole reason we run these.
@@ -12,7 +12,7 @@ Replace `@____` with real handles and confirm the real NextWork link before post
 > with @____ @____ @____ and @NextWork
 > #buildandbrew #nextwork #austintech
 
-## LinkedIn — carousel (`carousel/linkedin/austin-build-brew.pdf`)
+## LinkedIn: carousel (`carousel/linkedin/austin-build-brew.pdf`)
 > I ran a Build & Brew in Austin last night. 45 builders, one room, six projects shipped.
 >
 > No lectures. You pair off, you build over coffee, you demo what actually works. One team
@@ -25,7 +25,7 @@ Replace `@____` with real handles and confirm the real NextWork link before post
 >
 > with @____ @____ @____ and @NextWork · #buildandbrew #nextwork #austintech
 
-## Instagram — carousel (`carousel/instagram/01–05.png`, post in order)
+## Instagram: carousel (`carousel/instagram/01–05.png`, post in order)
 > One night in Austin. 45 builders, six ships. Swipe →
 > We run these every month. Come build the next one, or start your own: nextwork.ai
 >

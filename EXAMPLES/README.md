@@ -4,8 +4,8 @@ Rendered reference posts that show what the archetypes actually look like.
 
 ## Demo renders
 `demo-single.png` and `demo-slide-1..3.png` were built from the real sample photos in `_test-photos/`:
-- `demo-single.png` — a single post (archetype A) from `cafe-lounge.jpg`.
-- `demo-slide-1..3.png` — a 3-slide carousel: A cover (`group-dusk.jpg`) → G moment (`build-table.jpg`) → numbers.
+- `demo-single.png` is a single post (archetype A) from `cafe-lounge.jpg`.
+- `demo-slide-1..3.png` is a 3-slide carousel: A cover (`group-dusk.jpg`) → G moment (`build-table.jpg`) → numbers.
 
 To make your own, hand your agent `AGENT.md` and point it at your photos; it builds the boards on the Paper canvas. `_test-photos/` are real Build & Brew photos you can practice on.
 

@@ -1,7 +1,7 @@
 # Manifest
 
 **NextWork Community Kit** - v0.6 (2026-07-23)
-Brand snapshot from the NextWork kernel. v0.3: story-first workflow + growth-loop wiring. v0.4: real theming (ground + accent). v0.5 (2026-07-22): Paper-only, agent-driven — local render/export scripts archived; brand-QA read-back + anti-AI-slop guardrails added (Maya dogfood, LEA-271). v0.6 (2026-07-23): Jul 23 review round (LEA-271) — hardened Phase 0 (Paper desktop app + Full Disk Access + explicit page binding, the fix for the silent photo-import hang); outcome-first ≤10-word title rule; no em dashes / no ad-copy phrases; carousel dot row removed (Instagram draws its own); single post promoted to primary deliverable; new full-bleed cover archetype; local render/export restored as a second route for anyone without Paper.
+Brand snapshot from the NextWork kernel. v0.3: story-first workflow + growth-loop wiring. v0.4: real theming (ground + accent). v0.5 (2026-07-22): Paper-only, agent-driven. Local render/export scripts archived; brand-QA read-back + anti-AI-slop guardrails added (Maya dogfood, LEA-271). v0.6 (2026-07-23): Jul 23 review round (LEA-271). Hardened Phase 0 (Paper desktop app + Full Disk Access + explicit page binding, the fix for the silent photo-import hang); outcome-first ≤10-word title rule; no em dashes / no ad-copy phrases; carousel dot row removed (Instagram draws its own); single post promoted to primary deliverable; new full-bleed cover archetype; local render/export restored as a second route for anyone without Paper.
 
 ## Included
 - `AGENT.md` - the agent system prompt: story-first workflow, voice, the kit of parts, copy rules, render + export (the crux)
@@ -14,6 +14,7 @@ Brand snapshot from the NextWork kernel. v0.3: story-first workflow + growth-loo
 - `free-paper-path/` - free-tier Paper guidance
 - `no-paper-path/` - the second route: same archetypes rendered locally, for anyone without Paper
 - `EXAMPLES/` - sample event photos + rendered demos
+- `CHANGELOG.md` - what changed in each release and why, in plain language
 - `scripts/sync-from-kernel.md`, `CONTRIBUTING.md`, `LICENSE`
 
 ## Maps to the house atomic-kit convention (OMS / TMJ / Sona)

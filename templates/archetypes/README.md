@@ -1,4 +1,4 @@
-# Archetypes — the kit of parts
+# Archetypes: the kit of parts
 
 These HTML files are the **design source** for every board. Each is a 1080×1350 (4:5) slide, defining its own layout, grade, and `{{SLOTS}}` so the boards stay consistent across posts.
 
@@ -29,9 +29,9 @@ Pick a board by the moment and fill its photo + copy from the slot list below.
 
 ## Group shots (keep the whole crew)
 A wide group photo loses its edge people if you cover-crop it into 4:5. A (contain) and D already show the whole photo. Keep everyone:
-- **Square 1:1** (1080×1080) — more width than 4:5, good for small-to-medium groups.
-- **D (block + photo)** or a **contain/letterbox on the ground** — shows the whole photo, best for wide groups.
-- **Focal + tag** — if a crop is unavoidable, keep the clear subject and tag everyone in the caption.
+- **Square 1:1** (1080×1080): more width than 4:5, good for small-to-medium groups.
+- **D (block + photo)** or a **contain/letterbox on the ground**: shows the whole photo, best for wide groups.
+- **Focal + tag**: if a crop is unavoidable, keep the clear subject and tag everyone in the caption.
 Never drop a learner silently. See the GROUP SHOTS rule in `AGENT.md`.
 
 ## Start with a single post
@@ -39,9 +39,9 @@ A single post is the primary deliverable. It's what Build Masters actually use, 
 
 ## A carousel, in order
 The exception, not the default. Build the boards in swipe order and keep the same look on every slide:
-1. **Cover** — A-bleed (full bleed), A (contain), or D (block).
-2. **A few moments** — G (timestamp), one beat each (6:00 doors → 9:00 demos).
-3. **Proof** — numbers (the stats slide).
-4. **Invite** — A or D (come build the next one).
+1. **Cover**: A-bleed (full bleed), A (contain), or D (block).
+2. **A few moments**: G (timestamp), one beat each (6:00 doors → 9:00 demos).
+3. **Proof**: numbers (the stats slide).
+4. **Invite**: A or D (come build the next one).
 
 Then export (see the EXPORT rules in `AGENT.md`): Instagram = the 1080×1350 boards in order; LinkedIn = one PDF, a board per page. On the Paper route export from Paper; on the no-Paper route use `export.sh`.

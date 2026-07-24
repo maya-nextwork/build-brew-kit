@@ -1,26 +1,32 @@
-# The no-Paper path
+# Making posts without Paper
 
-You don't need Paper to use this kit. The archetypes are plain HTML, so they can be rendered locally instead. Same six boards, same brand, same gates, same QA bar. You run one script.
+No Paper? You can still use the whole kit. The boards are plain HTML, so your agent builds them on your own machine instead. Same boards, same brand, same approval gates.
 
-**Which page do you want?**
-- **No Paper account at all**, or no MCP connection: you're in the right place.
-- **You have Paper on the free plan** and you're hitting the weekly agent-call cap: see [`../free-paper-path/README.md`](../free-paper-path/README.md) first. Staying on Paper gives better-looking type.
+## Do this
 
-## The one real tradeoff, up front
-
-The house fonts (Suisse Neue, FK Grotesk Neue) are licensed and are **not bundled with this kit**. Rendering locally falls back to Georgia and your system grotesk. Layout, grade, colour, crop, and export are all still correct, and the result is genuinely postable. But the typography is an approximation, and it's the part a designer notices. If you have Paper, use Paper.
-
-Everything else about the kit is unchanged. The story-first workflow, both approval gates, the copy rules, and the brand QA read-back all apply exactly as written in [`../AGENT.md`](../AGENT.md).
-
-## Setup (once)
+Run this once:
 
 ```bash
 npx playwright install chromium
 ```
 
-That's it. Nothing else to install, no ImageMagick, no Pillow, no fonts to hunt down.
+Then hand `AGENT.md` to your agent the same way everyone else does, and mention you don't have Paper:
 
-For the LinkedIn PDF export only, you'll also want one of:
+> Read AGENT.md and follow it. I don't have Paper. My Build & Brew photos are in `./photos`. Make me a single post about the night.
+
+That's the whole job. Your agent asks about your night, drafts the words, shows you a plan, builds the post, and packages it for Instagram or LinkedIn. **You don't need to run anything else on this page by hand.** The rest is here for when you want to drive it yourself.
+
+## What's different without Paper
+
+One thing: **the fonts.** NextWork's own two typefaces can't be included in a public kit, so your posts render with close stand-ins instead. Everything else is identical: the layout, the photo grade, the colours, the crop, the export sizes. The result is genuinely postable. If you do get Paper later, the type will look a touch sharper there.
+
+Everything else about the kit is unchanged. The story-first workflow, both approval gates, the copy rules, and the brand QA read-back all apply exactly as written in [`../AGENT.md`](../AGENT.md).
+
+**On free Paper instead?** If you have an account but keep hitting the weekly cap, read [`../free-paper-path/README.md`](../free-paper-path/README.md) first. Staying on Paper gives you better-looking type.
+
+## One extra step for LinkedIn
+
+Only if you want the swipeable LinkedIn PDF:
 
 ```bash
 brew install imagemagick
@@ -110,4 +116,4 @@ Rendering locally changes the tool, not the standard. From `AGENT.md`:
 - **No em dashes**, in the artwork or the caption.
 - **Never cover-crop a wide group.** Use `A-photo-contain` or `D`, not `A-photo-bleed`. Every person in the room is in frame or tagged.
 - **No carousel dot row.** Instagram draws its own.
-- **Run the brand QA read-back before you export.** Open the PNG and check it against the list in `AGENT.md`. Fonts will fail check 2 by design here; everything else should pass.
+- **Run the brand QA read-back before you export.** Open the PNG and check it against the list in `AGENT.md`. Check 2 (fonts) is the known exception here; everything else should pass.

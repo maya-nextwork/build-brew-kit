@@ -5,11 +5,11 @@ event selects from `../_test-photos/`. The whole set is **tonal, no accent** (pa
 which is one valid answer to the "ground + accent?" intake question.
 
 ## What's here
-- `single.png` — the single post (Build Master story archetype).
-- `carousel/01–05.png` — the 5 slides, in swipe order.
-- `carousel/instagram/` — the same slides numbered for Instagram.
-- `carousel/linkedin/austin-build-brew.pdf` — one swipeable PDF for LinkedIn (5 pages, 1080×1350).
-- `caption.md` — the captions + tags, with the growth loop closed in the host's voice.
+- `single.png`: the single post (Build Master story archetype).
+- `carousel/01–05.png`: the 5 slides, in swipe order.
+- `carousel/instagram/`: the same slides numbered for Instagram.
+- `carousel/linkedin/austin-build-brew.pdf`: one swipeable PDF for LinkedIn (5 pages, 1080×1350).
+- `caption.md`: the captions + tags, with the growth loop closed in the host's voice.
 
 ## The story-first trail (how it was made)
 
@@ -28,8 +28,8 @@ posed line-up.
 
 ## How it was built
 On the Paper canvas, from these archetype picks and photos:
-- **Single post** — Build Master story archetype, from `talk-warm.jpg`. Claim "Nobody watched a demo." / "45 people built one."
-- **Carousel** — D cover (`group-dusk.jpg`, "One night. Six ships.") → two G moments (`build-table.jpg` 7:30 "Paired up. Heads down."; `coding-screen.jpg` 9:00 "First demos. Real code, real nerves.") → numbers (45 builders / 6 projects / 1 night) → D invite (`cafe-lounge.jpg`, "Come build the next one.").
+- **Single post**: Build Master story archetype, from `talk-warm.jpg`. Claim "Nobody watched a demo." / "45 people built one."
+- **Carousel**: D cover (`group-dusk.jpg`, "One night. Six ships.") → two G moments (`build-table.jpg` 7:30 "Paired up. Heads down."; `coding-screen.jpg` 9:00 "First demos. Real code, real nerves.") → numbers (45 builders / 6 projects / 1 night) → D invite (`cafe-lounge.jpg`, "Come build the next one.").
 
 Then exported from Paper: the Instagram images in order, and one LinkedIn PDF (5 pages, 1080×1350).
 

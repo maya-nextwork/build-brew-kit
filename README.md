@@ -15,14 +15,15 @@ You ran a room where people built real things. That's leadership, and this is yo
 
 ## What's in the kit
 
-- `AGENT.md` — **the one file you hand to your AI agent.** It carries the brand rules, the kit of parts, the copy rules, and how to render and export, so your posts look right by default.
-- `templates/archetypes/` — the **kit of parts**: six post archetypes (the design source for the Paper boards). See its `README.md` for the archetype list and slots.
-- `brand/` — the colours, fonts, and voice that make a post feel like NextWork.
-- `templates/caption-and-tags.md` — the post's text field, who to tag, and how to credit NextWork and open the door for the next person (the growth loop, in your voice).
-- `start-your-own-build-and-brew.md` — never run one? The whole format on one page. The on-ramp for the next host.
-- `free-paper-path/` — running the kit on a free Paper account, and where the free-tier limits are.
-- `no-paper-path/` — **no Paper at all?** The same archetypes rendered locally with one script.
-- `EXAMPLES/` — sample event photos and rendered demos.
+- `AGENT.md`: **the one file you hand to your AI agent.** It carries the brand rules, the kit of parts, the copy rules, and how to render and export, so your posts look right by default.
+- `templates/archetypes/`: the **kit of parts**: six post archetypes (the design source for the Paper boards). See its `README.md` for the archetype list and slots.
+- `brand/`: the colours, fonts, and voice that make a post feel like NextWork.
+- `templates/caption-and-tags.md`: the post's text field, who to tag, and how to credit NextWork and open the door for the next person (the growth loop, in your voice).
+- `start-your-own-build-and-brew.md`: never run one? The whole format on one page. The on-ramp for the next host.
+- `free-paper-path/`: running the kit on a free Paper account, and where the free-tier limits are.
+- `no-paper-path/`: **no Paper at all?** The same archetypes rendered locally with one script.
+- `EXAMPLES/`: sample event photos and rendered demos.
+- `CHANGELOG.md`: what changed in each version of the kit, and why.
 
 ## Quickstart
 
@@ -30,13 +31,13 @@ Your AI agent does the design. You talk, you approve, it builds.
 
 1. **Clone this repo** (or download the ZIP).
 2. **If you're using Paper:** open the Paper **desktop app** and leave it running, and grant it **Full Disk Access** (System Settings > Privacy & Security), then relaunch. Skipping this makes photo imports hang silently, and it's the most common thing that stops a first run. No Paper? Skip to `no-paper-path/`.
-3. **Hand `AGENT.md` to your AI agent** — Claude Code or Cursor — and point it at your event photos:
+3. **Hand `AGENT.md` to your AI agent** (Claude Code or Cursor) and point it at your event photos:
    > "Read AGENT.md and follow it. My Build & Brew photos are in `./photos`. Make me a single post about the event."
 4. It asks about the night, shows a plan (Gate 1), builds the post for you to react to (Gate 2), runs a brand-QA check, then exports it.
 
 **Start with a single post.** It's what gets used, it's the lowest barrier, and one share is a win. Carousels are there when a night has several beats worth swiping through.
 
-**No Paper?** `no-paper-path/` renders the same archetypes locally. One setup command, same brand, same gates. The only compromise is that the licensed house fonts fall back to system ones.
+**No Paper?** `no-paper-path/` builds the same posts on your own machine. One setup command, same brand, same gates. The one difference is that the house fonts aren't included in the kit, so posts render with close stand-ins.
 
 **No photos (virtual event)?** Use the text-only archetype (F), or a screenshot of what a member built as the photo in D. See `AGENT.md`.
 

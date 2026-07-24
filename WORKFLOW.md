@@ -1,11 +1,11 @@
-# The Build Master run — how the kit actually works
+# The Build Master run: how the kit actually works
 
 > The canonical workflow. `AGENT.md` is what the agent follows; this is the human-readable
 > version of the same journey, so you can teach it, test it, and see where it should improve.
 
 **One principle: story-first, never output-first.** The agent's first move is to *ask*, not to
-render. A Build Master should be walked through making their post — hearing the night back in
-their own words, seeing it before it publishes, and iterating — not handed finished files.
+render. A Build Master should be walked through making their post: hearing the night back in
+their own words, seeing it before it publishes, and iterating. Not handed finished files.
 
 **Why a Build Master posts.** The point is their empowerment, not our marketing. Running a room
 where people build real things is leadership, and posting it builds their personal brand as
@@ -40,7 +40,7 @@ Then, either route, the Build Master makes a folder on their Desktop with the ni
 ```
 ~/Desktop/build-brew-<city>/        e.g. ~/Desktop/build-brew-austin/
 ```
-They point the agent at it. The agent looks at the photos before choosing anything — archetype
+They point the agent at it. The agent looks at the photos before choosing anything. Archetype
 picks are a lighting decision (warm/dim → cinematic A/G; bright/celebratory → D invite).
 
 ### Phase 1 · Intake → draft  · **Gate 1**
@@ -48,14 +48,14 @@ A short conversation *before any image is made*. The agent asks:
 1. Single post or carousel? **Single post is the default**, and the agent says so. It's what Build
    Masters actually use and one share is a win. Carousel only on request, or when the night has
    several distinct beats worth swiping through.
-2. **What happened?** The arc — doors, pairing up, building, demos, the one human moment.
+2. **What happened?** The arc: doors, pairing up, building, demos, the one human moment.
    *These words become the copy.*
-3. **What did you build?** The actual projects — the app, site, agent, or thing the group or a
+3. **What did you build?** The actual projects: the app, site, agent, or thing the group or a
    standout person shipped, not just how many. *This is what the headline names.*
 4. Who are you (Build Master name), event name, city.
-5. The numbers — headcount, projects shipped, any "first ever."
-6. Where are you posting — Instagram, LinkedIn, or both.
-7. The look — ground **light (paper)** or **dark (leather)**? Accent — pumpkin, cornflower,
+5. The numbers: headcount, projects shipped, any "first ever."
+6. Where are you posting: Instagram, LinkedIn, or both.
+7. The look. Ground **light (paper)** or **dark (leather)**? Accent: pumpkin, cornflower,
    plum, canary, sand, or **none**? *Asked every run; no default.*
 
 The agent drafts the archetype pick(s) + the line(s) in the Build Master's voice and **shows
@@ -104,15 +104,14 @@ photos is the single biggest reach lever. Then it closes the loop, in the Build 
 
 ---
 
-## Surface — two routes
+## Surface: two routes
 **Paper (default).** The agent builds and exports every post on the Paper canvas. The archetype HTML
 in `templates/archetypes/` is the design source the boards are built from, not something anyone runs.
 
 **No Paper.** The same archetype HTML is rendered directly with `templates/archetypes/render.sh` and
 packaged with `export.sh`. One setup command (`npx playwright install chromium`). The gates, copy
-rules, and brand QA are identical; only the renderer changes. The one compromise is typography: the
-house fonts are licensed and not bundled, so type falls back to system faces. See
-`no-paper-path/README.md`.
+rules, and brand QA are identical; only the renderer changes. One difference: the house fonts aren't
+included in the kit, so posts render with close stand-ins. See `no-paper-path/README.md`.
 
 > **Ground + accent** are token controls on the board: ground = light (paper + ink) or dark
 > (leather + cream) on the block/text archetypes (D, numbers, build-master, F); accent = one of

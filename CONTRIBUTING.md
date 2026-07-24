@@ -8,7 +8,7 @@ This kit gets better when the community adds to it. Made a layout or variant you
 - Fixes and clearer instructions
 
 ## The one rule
-Stay on-brand. Use the colours and fonts in `brand/`, one accent per post, sentence case, no pure white or black. If a value is missing, don't invent one — flag it.
+Stay on-brand. Use the colours and fonts in `brand/`, one accent per post, sentence case, no pure white or black. If a value is missing, don't invent one. Flag it.
 
 ## Brand values
 `brand/colors.json` matches the hexes hardcoded in the templates. If you change a colour, change both, and keep it aligned with the NextWork kernel (see `scripts/sync-from-kernel.md`).
